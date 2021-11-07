@@ -1,0 +1,170 @@
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: orange;
+   }
+   
+   
+   
+   .calculator {
+       display: grid;
+       height: 400px;
+       width: 300px;
+       grid-template-columns: repeat(4,1fr);
+       grid-template-rows: repeat(6,1fr);
+       background-color: black;
+       }
+   .grayl{
+       background-color: rgb(148, 146, 146);
+   }
+   .gray{
+       background-color: rgb(82, 81, 81);
+       color:white;
+   }
+   #output {
+       color:white;
+       grid-column-start: 1;
+       grid-column-end: span 4;
+       grid-row-start: 1;
+       grid-row-end: 2;
+       background-color: black;
+   }
+   .AC {
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 2;
+       grid-row-end: 3;
+       
+      
+   }
+   .plusMinus {
+       grid-column-start: 2;
+       grid-column-end: 3;
+       grid-row-start: 2;
+       grid-row-end: 3;
+       
+   }
+   .restDiv{
+       grid-column-start: 3;
+       grid-column-end: 4;
+       grid-row-start: 2;
+       grid-row-end: 3;
+       
+   }
+   .division{
+       grid-column-start: 4;
+       grid-column-end: 4;
+       grid-row-start: 2;
+       grid-row-end: 3;
+      
+   }
+   .seven {
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 3;
+       grid-row-end: 4;
+      
+   }
+   .eight{
+       grid-column-start: 2;
+       grid-column-end: 3;
+       grid-row-start: 3;
+       grid-row-end: 4;
+       
+   }
+   .nine{
+       grid-column-start: 3;
+       grid-column-end: 4;
+       grid-row-start: 3;
+       grid-row-end: 4;
+      
+   }
+   .multi{
+       grid-column-start: 4;
+       grid-column-end: 4;
+       grid-row-start: 3;
+       grid-row-end: 4;
+      
+   }
+   .four {
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 4;
+       grid-row-end: 5;
+   } 
+   .five{
+       grid-column-start: 2;
+       grid-column-end: 3;
+       grid-row-start: 4;
+       grid-row-end: 5;
+   }
+   .six{
+       grid-column-start: 3;
+       grid-column-end: 4;
+       grid-row-start: 4;
+       grid-row-end: 5;
+       
+   }
+   .minus{
+       grid-column-start: 4;
+       grid-column-end: 4;
+       grid-row-start: 4;
+       grid-row-end: 5;
+       
+   }
+   .one {
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 5;
+       grid-row-end: 6;
+   }
+   .two{
+       grid-column-start: 2;
+       grid-column-end: 3;
+       grid-row-start: 5;
+       grid-row-end: 6;
+       
+   }
+   .three{
+       grid-column-start: 3;
+       grid-column-end: 4;
+       grid-row-start: 5;
+       grid-row-end: 6;
+      
+   }
+   .plus{
+       grid-column-start: 4;
+       grid-column-end: 4;
+       grid-row-start: 5;
+       grid-row-end: 6;
+       
+   }
+   .zero1 {
+       grid-column-start: 1;
+       grid-column-end: 2;
+       grid-row-start: 6;
+       grid-row-end: 7;
+      
+   }
+   .zero2{
+       grid-column-start: 2;
+       grid-column-end: 3;
+       grid-row-start: 6;
+       grid-row-end: 7;
+      
+   }
+   .dot{
+       grid-column-start: 3;
+       grid-column-end: 4;
+       grid-row-start: 6;
+       grid-row-end: 7;
+       
+   }
+   .equal{
+       grid-column-start: 4;
+       grid-column-end: 4;
+       grid-row-start: 6;
+       grid-row-end: 7;
+   } 

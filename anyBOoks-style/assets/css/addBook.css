@@ -1,0 +1,209 @@
+
+  
+  /* select{
+    width: 30em;
+    height: 3em;
+    line-height: 3;
+    border: 0;
+    background-color: #328F8A;
+    background-image: linear-gradient(45deg,#328F8A,#AFE6C6);
+    color: #FFFFFF;
+    cursor:pointer;
+    font-size: medium;
+    outline: 0;
+    box-sizing: border-box;
+    margin: 0 0 15px;
+    padding: 15px;
+ }
+ button{
+     position: relative;
+     bottom: 25.3em;
+     left: 25em;
+     padding: .75em 1.25em;
+     border: 0;
+     color: #FFFFFF;
+     text-transform: uppercase;
+     font-size: 1em;
+     letter-spacing: 2px;
+     background-image: linear-gradient(45deg,#328F8A,#AFE6C6);
+     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(58, 255, 255, 0.24);
+      cursor: pointer;
+     width: 30em;
+     height: 3em;
+    }
+ body {
+  background-color:#c9c9c9 ;
+  color: rgb(0, 0, 0);
+  }
+  .form h3{
+    position: relative;
+    left: 9em;
+    margin-bottom: 4em;
+    height: 3em;
+    width: 30%;
+    text-align: center;
+    margin-left:20% ;
+    font-size: 1.24em;
+    text-shadow: 0px 2px 3px #666;
+    background: #DFDEDE;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    animation: opacity 2s;
+  }
+  .form h3 span{
+    text-shadow: 0px 2px 3px #666;
+    font-size: 0.7em;
+  }
+  .form .inputs{
+    position: relative;
+    left: 42.7em;
+    z-index: 1;
+    background: #DFDEDE;
+    max-width:40%;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+ 
+  #imge{
+    background-color: #F2F2F2;
+    color: #A39C9C;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+  }
+  .form .textareaParent{
+    position: relative;
+    bottom: 28.3em;
+    left: 1.5em;
+    z-index: 1;
+    background: #DFDEDE;
+    max-width:40%;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .form p {
+    margin-top: -1em;
+    text-align: center;
+    text-shadow: 1px 7px 10px rgba(5, 5, 5, 0.8);
+  }
+  .textarea{
+    background-color: #F2F2F2;
+    border: 0;
+    margin: 7px 0;
+    width: 36em;
+    height: 12.52em;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+hr{
+    width: 30em;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+@keyframes opacity {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+} */
+
+
+
+
+/* form styling */
+*{
+  text-transform: none;
+}
+.form{
+  margin-top: 3em;
+}
+.form .inputs {
+  max-width:85%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ 
+}
+.form .inputs select, input{
+    margin:1em;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    height: 3em;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    border: 1px solid #cfa671;
+  }
+.checkBOx {
+  display: flex;
+  margin-top: 3em;
+  position: relative;
+  left: 20%;
+  max-width:50%;
+  height: unset;
+ 
+}
+.checkBOx input{
+  height: unset;
+  max-width:20%;
+}
+
+/* styling the elements */
+.form #introPar{
+  font-size: 18px;
+  margin-top: 0px;
+}
+h3, p{
+  text-align: center;
+}
+#selectUniversity, #Faculty{
+  width: 68.75em;
+  height: 3em;
+  background-color: #d0a772;
+  cursor:pointer;
+  outline: none;
+  
+}
+#Sale, #donation, #exchange  {
+position: relative;
+top: 2em;
+left: 6em;
+}
+#price {
+position: absolute;
+}
+#booksinfo{
+  position: absolute;
+  right: 18em;
+}
+button{
+     margin: 3em 0 3em 0;
+     color: #d0a772;
+     background-color: transparent;
+     background-image: none;
+     background-color: transparent;
+     position: relative;
+     outline: unset;
+     left: 40%;
+     padding: .75em 1.25em;
+     text-transform: uppercase;
+     font-size: 1em;
+     letter-spacing: 2px;
+     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(107, 85, 43, 0.24);
+     cursor: pointer;
+     width: 10em;
+     height: 3em;
+     border: 1px solid #cfa671;
+}
+button:hover{
+  border: 1px solid #57def0;
+  transform: translatey(0.1em);
+}
+input:focus {
+  outline-color:#cfa671 ;
+}
+
+

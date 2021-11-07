@@ -1,0 +1,45 @@
+
+   #filterdCards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   }
+  
+   #filterdCards .filterdCards{
+    width: 22%;
+    border-radius: 0.35em;
+    text-align: center;
+    padding: 2em;
+    background-color: #e4e1de; 
+    margin: 5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+   }
+   #filterdCards .filterdCards p {
+    margin: 2em;
+   }
+#filterdCards button {
+  width: 50%;
+  height: 30px;
+  background-color: #56bbb6;
+  cursor: pointer;
+  border-radius: 0.75em;
+  border-style: none;
+  outline: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+#filterdCards button:hover {
+  background-color: rgb(179, 179, 179);
+  color: rgb(255, 255, 255);
+}
+#filterdCards button:active {
+  transform: translateY(4px);
+}
+ #filterdCards  img{
+  width: 150px;
+  height: 200px;
+  margin-bottom: 2em;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}

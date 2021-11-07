@@ -1,0 +1,59 @@
+
+
+#products-info{
+    position: absolute;
+    right: 4%;
+    top: 14%;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 70vh;
+    /* box-shadow: #085350 5px 5px, #127772 10px 10px, #2da09a 15px 15px, #52cfc9 20px 20px, rgba(95, 204, 231, 0.05) 25px 25px;     */
+    box-shadow: #D0A772 0px 14px 28px, #D0A772 0px 10px 10px;
+    text-align: center;
+    border-radius: 0.40em;
+ } 
+ #productCOntainer{
+     position: relative;
+     top: 5em;
+  }
+ div p{
+   font-size: large;
+   padding: 0.75em;
+} 
+ #bookImage{
+   position: relative;
+    left: 4em;
+    top: 2em;
+    width: 38em;
+    height: 36em;
+    border-radius: 0.40em;
+    box-shadow: #D0A772 0px 14px 28px, #D0A772 0px 10px 10px;
+} 
+button{
+    width: 9em;
+    height: 30px;
+    background-color: #D0A772;
+    cursor: pointer;
+    color: #000;
+    border-style: none;
+    color: #fff; 
+}
+button:hover {
+  background-color: #816d55;
+  color: rgb(255, 255, 255);
+
+  } 
+
+span{
+  font-weight: bold;
+}
+#show{
+ display: block;
+ position: relative;
+ left: 37%;
+ margin-bottom: 2em;
+}
+#donation{
+  font-size: 2em;
+  font-weight: bolder;
+}

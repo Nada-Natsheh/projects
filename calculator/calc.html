@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <script src="calc.js"></script>
+
+    <div class="calculator">
+        <input type="text"  id="output"/>
+        <div class="AC"><button class="grayl" value="AC" id="AC" onclick="clr()">AC</button></div>
+        <div class="plusMinus"><button class="grayl" value="+/-" id="plusMinus">+/-</button></div>
+        <div class="restDiv"><button class="grayl" value="%" id="restDiv">%</button></div>
+        <div class="division"><button value="/" onclick="dis('/')">/</button></div>
+        <div class="seven"><button class="gray" onclick="dis('7')" value="7">7</button></div>
+        <div class="eight"><button class="gray" onclick="dis('8')" value="8">8</button></div>
+        <div class="nine"><button  class="gray" onclick="dis('9')" value="9">9</button></div>
+        <div class="multi"><button value="*" onclick="dis('*')" >*</button></div>
+        <div class="four"><button  class="gray" onclick="dis('4')"  value="4">4</button></div>
+        <div class="five"><button  class="gray" onclick="dis('5')" value="5">5</button></div>
+        <div class="six"><button  class="gray" onclick="dis('6')" value="6">6</button></div>
+        <div class="minus"><button value="-" onclick="dis('-')" >-</button></div>
+        <div class="one"><button  class="gray" onclick="dis('1')" value="1">1</button></div>
+        <div class="two"><button  class="gray" onclick="dis('2')" value="2">2</button></div>
+        <div class="three"><button  class="gray" onclick="dis('3')" value="3">3</button></div>
+        <div class="plus"><button value="+" onclick="dis('+')" >+</button></div>
+        <div class="zero1"><button  class="gray" onclick="dis('0')" value="0">0</button></div>
+        <div class="zero2"><button  class="gray" onclick="dis('0')" value="0">0</button></div>
+        <div class="dot"><button  class="gray" onclick="dis('.')" value=".">.</button></div>
+        <div class="equal"><button value="=" onclick="solve()" >=</button></div>
+    </div>
+    
+</body>
+
+</html>
